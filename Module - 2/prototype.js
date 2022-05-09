@@ -1,9 +1,9 @@
 
-function Employee(name, designation, department)
+function Employee(_name, _designation, _department)
 {
-    this.name = name;
-    this.designation = designation;
-    this.department = department;
+    this.name = _name;
+    this.designation = _designation;
+    this.department = _department;
 }
 
 Employee.prototype.addEmployee = function()
