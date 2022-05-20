@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Form</title>
+        <!-- CSS only -->
+        <link rel="stylesheet" href="form.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    </head>
+    <body>
+
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">Navbar</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Dropdown
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link disabled">Disabled</a>
+                  </li>
+                </ul>
+                <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+              </div>
+            </div>
+          </nav>
+
+        <div class="container">
+        <div class="row">
+            <div class="col col-md-6 col-sm-12"></div>
+            <div class="col col-md-6 col-sm-12">  
+            
+        <h1>Signup Form</h1>
+        <form action = "">
+            <div class="mb-3">
+                <lebel class="form-label" for="fname">First Name</lebel>
+                <input class="form-control" type="text" name="fname">
+            </div>
+
+            <div class="mb-3">
+                <lebel class="form-label" for="lname">Last Name</lebel>
+                <input class="form-control" type="text" name="lname">
+            </div>
+
+            <div class="mb-3">
+                <lebel class="form-label" for="email">Email Id</lebel>
+                <input class="form-control" type="text" name="email">
+            </div>
+
+            <div class="mb-3">
+                <lebel class="form-label" for="password">Password</lebel>
+                <input class="form-control" type="text" name="password">
+            </div>
+
+            <div class="form check">
+                <input type="radio"class="form-check-input"  name="gender"><lebel class="form-check-lebel" for="gender">Male</lebel>
+                <input type="radio" class="form-check-input" name="gender"><lebel class="form-check-lebel" for="gender">Female</lebel>
+            </div>
+        
+            <button class="btn btn-success float-end" type="button">Submit</button>
+        </form>
+            </div>
+        </div>
+    </div>     
+    </body>
+</html>
