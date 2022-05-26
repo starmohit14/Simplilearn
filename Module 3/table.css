@@ -1,0 +1,16 @@
+.container{
+    margin: 4%;
+}
+
+.table-starmohit14
+{
+    --bs-table-bg: blue;
+    --bs-table-striped-bg: blue;
+    --bs-table-striped-color: blue;
+    --bs-table-active-bg: blue;
+    --bs-table-active-color: blue;
+    --bs-table-hover-bg: blue;
+    --bs-table-hover-color: blue;
+    color: #fff;
+    border-color: #373b3e;
+}
